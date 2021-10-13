@@ -1,3 +1,17 @@
 body{
-    background-color: aqua;
+    background-color:rgba(105, 90, 205, 0.582); 
+    font-family: 'Cookie', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Festive', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.bienvenidos{
+
+    
+    font-family: 'Dancing Script', cursive;
+   
+    font-size: 70px;
 }
