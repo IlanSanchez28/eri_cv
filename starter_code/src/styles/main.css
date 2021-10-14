@@ -1,3 +1,15 @@
+:root{
+
+    --fontbase: 'Poppins', sans-serif;   
+    --headline2: bold 59px/96px var(--fontbase);
+    --headline5: bold 24px/39px 'Poppins', sans-serif;
+    --letracursiva: 'Dancing Script', cursive;
+}
+
+
+
+
+
 body{
     background-color:rgba(90, 201, 205, 0.582); 
     font-family: 'Cookie', cursive;
@@ -5,13 +17,21 @@ body{
     font-family: 'Festive', cursive;
     font-family: 'Quicksand', sans-serif;
     font-family: 'Roboto', sans-serif;
+
+    font-size: 16px; 
+    color: #310A90;
+
     
 }
 
 .bienvenidos{
-
-    
-    font-family: 'Dancing Script', cursive;
-   
+    font-family: var(--letracursiva);
     font-size: 70px;
+}
+
+
+.hero-content p{
+
+    font-size: 32px;
+    font-family: var(--headline5);
 }
