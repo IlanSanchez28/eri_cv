@@ -39,16 +39,17 @@
 
 }
 
-.social-btn{
 
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    gap: 16px;
-}
 
 .hero-img{
    text-align: right;
     
 }
 
+.hero-content{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 16px;
+}

@@ -2,6 +2,7 @@
 @import url(./hero.css);
 @import url(./about-me.css);
 @import url(./social.btns.css);
+@import url(./edu.css);
 :root{
 
     --fontbase: 'Poppins', sans-serif;   
