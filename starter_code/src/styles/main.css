@@ -1,3 +1,7 @@
+
+@import url(./hero.css);
+@import url(./about-me.css);
+@import url(./social.btns.css);
 :root{
 
     --fontbase: 'Poppins', sans-serif;   
@@ -35,3 +39,29 @@ body{
     font-size: 32px;
     font-family: var(--headline5);
 }
+
+/* estilos aboutme*/
+/*vh -> flexible -> relativa al viewport (donde lo visualiza telefono)*/
+/* px -> absoluta*/
+/* 100vh = 100%*/
+/* em -> relativa -> va a depender de su parent element*/
+
+*{
+    margin: 0px;
+}
+
+html{
+
+    font-size: 16px;
+}
+
+
+
+.navegacion{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 30px
+}
+

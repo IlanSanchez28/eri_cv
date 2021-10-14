@@ -1,0 +1,23 @@
+.hero-content p{
+
+    font-size: 32px;
+    font-family: var(--headline5);
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: brown;
+   
+}
+
+.hero-content h5{
+
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: brown;
+}
+
+.hero content h2{
+
+    font: var(--headline2)
+
+}
+
