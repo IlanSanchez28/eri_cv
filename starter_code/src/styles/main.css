@@ -1,14 +1,19 @@
 
+@import url(./header.css);
 @import url(./hero.css);
 @import url(./about-me.css);
 @import url(./social.btns.css);
 @import url(./edu.css);
+
 :root{
 
     --fontbase: 'Poppins', sans-serif;   
     --headline2: bold 59px/96px var(--fontbase);
-    --headline5: bold 24px/39px 'Poppins', sans-serif;
+    --headline5: bold 24px/39px var(--fontbase);
     --letracursiva: 'Dancing Script', cursive;
+    --body1:bold 16px/25px  var(--fontBase);
+    --purple:#310A90;
+    --white: #FFFFFF;
 }
 
 
@@ -34,12 +39,13 @@ body{
     font-size: 70px;
 }
 
+.container{
+    padding-left: 20px;
+    padding-right: 20px;
 
-.hero-content p{
-
-    font-size: 32px;
-    font-family: var(--headline5);
 }
+
+
 
 /* estilos aboutme*/
 /*vh -> flexible -> relativa al viewport (donde lo visualiza telefono)*/
@@ -48,7 +54,7 @@ body{
 /* em -> relativa -> va a depender de su parent element*/
 
 *{
-    margin: 0px;
+    margin: 0;
 }
 
 html{
@@ -66,3 +72,12 @@ html{
     gap: 30px
 }
 
+#about-me{
+
+    height: 50vh;
+    background-color: red;
+}
+
+.about-me-container h1{
+    font-size: 1em;
+}
