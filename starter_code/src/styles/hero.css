@@ -3,6 +3,15 @@
     flex-direction: row;
 }
 
+@media (max-width: 700px)  {
+
+    #hero{
+
+        flex-direction: column-reverse;
+    }
+    
+}
+
 .hero-content p{
 
     font: var(--body1);
@@ -29,5 +38,10 @@
 }
 .hero-img img{
     width: 100%;
+}
+
+.hero-content button {
+
+    text-align: justify;
 }
 

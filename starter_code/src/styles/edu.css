@@ -39,3 +39,24 @@
    
     
 }
+
+/*mobile-first*/
+
+#responsive{
+
+    background-color: salmon;
+}
+
+.responsive-img img{
+
+    height: 5px;
+    width: 5px;
+}
+
+@media speech and (min-width: 900px){
+
+    #responsive{
+
+        background-color: greenyellow;
+    }
+}
